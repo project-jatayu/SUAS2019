@@ -21,5 +21,5 @@ print(DictObj)
 r = DictObj["searchGridPoints"]
 jsonObj = json.dumps(r)
 
-with open('sp.json', 'w') as outfile:  
+with open('searcharea.json', 'w') as outfile:  
     json.dump(jsonObj, outfile)
