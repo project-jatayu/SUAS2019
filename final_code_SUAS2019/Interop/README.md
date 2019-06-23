@@ -1,5 +1,12 @@
 interop code contact: aditya20kishore@gmail.com
-
+## To start http server
+```
+  python -m http.server {port number}
+```
+For example, to run server on port 4321
+```
+  python -m http.server 4321
+```
 AUVSI SUAS Interoperability
 ===========================
 
